@@ -9,7 +9,7 @@ public abstract class Pizza {
     protected String name;
     protected String dough;
     protected String sauce;
-    ArrayList<String> toppings = new ArrayList<>();
+    protected ArrayList<String> toppings = new ArrayList<>();
 
     void prepare() {
         System.out.println("Preparing " + name);

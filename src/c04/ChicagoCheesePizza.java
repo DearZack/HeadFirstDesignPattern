@@ -9,6 +9,7 @@ public class ChicagoCheesePizza extends Pizza {
         name = "Chicago Style Deep Dish Cheese Pizza";
         dough = "Extra Thick Crust Dough";
         sauce = "Plum Tomato Sauce";
+        toppings.add("Grated Mozzarella Cheese");
     }
 
     @Override
