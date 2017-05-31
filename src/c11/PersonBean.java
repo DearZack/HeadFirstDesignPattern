@@ -1,0 +1,16 @@
+package c11;
+
+/**
+ * Created by Zack on 2017/5/31.
+ */
+public interface PersonBean {
+    String getName();
+    String getGender();
+    String getInterests();
+    int getHotOrNotRating();
+
+    void setName(String name);
+    void setGender(String gender);
+    void setInterests(String interests);
+    void setHotOrNotRating(int rating);
+}
